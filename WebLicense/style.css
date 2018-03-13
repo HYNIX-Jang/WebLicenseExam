@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;;
+}
+
+body {
+    height: auto;
+}
+
+.in {
+    width: 1200px;
+    margin: 0 auto;
+    /*가운데 정렬*/
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    height: 150px;
+    background-color: #222222;
+}
+
+#logo {
+    background-image: url("./images/logo.png");
+    height: 100px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;;
+    float: left;
+    margin-left: 200px;
+    margin-top: 25px;
+
+}
+
+.bar {
+    float: right;
+}
+
+.menu {
+    float: right;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.menu:hover {
+    color: #79e5cb;
+}
+
+.slide {
+    top: 10px;
+    width: 300%;
+    overflow: hidden;
+
+}
+
+.slideBox {
+    height: 700px;
+    width: 33.3333333333%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contents {
+    background-color: #79e5cb;
+    height: auto;
+
+}
+
+.center {
+    padding-top: 70px;
+}
+
+.home > .in > div {
+    float: left;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 0 70px;
+    display: inline-block;
+}
+
+.gallery > .in > img {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    float: left;
+}
+
+.aboutBackgroud{
+    background-image: url("About/img.jpg");
+    background-size: cover;
+    height: 800px;
+}
+
+footer{
+    height: 150px;
+    padding-top: 75px;
+    background-color: #ffffff;
+}
