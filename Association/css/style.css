@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    font-family: "Sandoll GothicNeoRound";
+    color: white;
+}
+
+.in {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    height: 120px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+header img {
+    height: 100px;
+}
+
+header > .in {
+    height: 100px;
+}
+
+.menu {
+    float: right;
+}
+
+li {
+    line-height: 100px;
+    list-style: none;
+    float: right;
+    margin-left: 70px;
+    color: black;
+}
+
+.span1 {
+    position: absolute;
+    line-height: 700px;
+}
+
+.span2 {
+    font-size: 70px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide {
+    top: 10px;
+    width: 300%;
+    overflow: hidden;
+}
+
+.slideBox {
+    height: 700px;
+    width: 100vw; /*현재 화면 크기만큼 */
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contents {
+    height: 500px;
+    background-color: #79e5cb;
+    padding: 100px;
+}
+
+footer {
+    height: 400px;
+    padding: 100px;
+    background-color: #009688;
+    color: white;
+}
+
+.left {
+    float: left;
+}
+
+.left > div {
+    margin-bottom: 30px;
+}
+
+.right {
+    float: right;
+}
+
+.right > div {
+    margin-bottom: 10px;
+}
