@@ -3,11 +3,11 @@
     padding: 0;
     height: auto;
     box-sizing: border-box;
-    font-family: "Sandoll GothicNeoRound";
+    font-family: "Sandoll GothicNeoRound", serif;
     color: white;
 }
 
-.in {
+.wrapper {
     width: 960px;
     margin: 0 auto;
 }
@@ -30,12 +30,48 @@ header > .in {
     float: right;
 }
 
-li {
-    line-height: 100px;
+.menu > ul {
+    display: block;
+}
+
+.position {
     list-style: none;
-    float: right;
-    margin-left: 70px;
+    padding: 50px;
     color: black;
+    float: left;
+}
+
+.menu li > ul {
+    position: absolute;
+    background-color: white;
+}
+
+.position li {
+    color: black;
+    margin-top: 70px;
+}
+
+.position:hover {
+    color: white;
+    background-color: #009968;
+
+}
+
+.position:hover > ul {
+    display: block;
+}
+
+.position > ul {
+    display: none;
+    list-style: none;
+    margin-left: -50px;
+
+}
+
+.position > ul {
+    padding: 45px;
+    background-color: white;
+    top: 115px;
 }
 
 .span1 {
@@ -49,10 +85,14 @@ li {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+section {
+    overflow: hidden;
+    width: 100%;
+}
+
 .slide {
     top: 10px;
     width: 300%;
-    overflow: hidden;
 }
 
 .slideBox {
@@ -64,14 +104,54 @@ li {
 }
 
 .contents {
-    height: 500px;
+    height: 1200px;
     background-color: #79e5cb;
     padding: 100px;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.partner {
+    padding: 30px;
+}
+
+.partner > img {
+    padding: 0 50px;
+}
+
+.partner > img:first-child {
+    float: left;
+}
+
+.partner > img:last-child {
+    float: right;
+}
+
+.iconContent {
+    margin: 150px;
+}
+
+.iconContent > img {
+    width: 200px;
+}
+
 footer {
     height: 400px;
-    padding: 100px;
+    padding: 90px;
     background-color: #009688;
     color: white;
 }
