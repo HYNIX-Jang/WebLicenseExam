@@ -65,12 +65,11 @@ header > .in {
     display: none;
     list-style: none;
     margin-left: -50px;
-
 }
 
-.position > ul {
+.position > ul {    background-color: white;
+
     padding: 45px;
-    background-color: white;
     top: 115px;
 }
 
